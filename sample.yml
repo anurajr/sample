@@ -1,6 +1,5 @@
 ---
 - hosts: all
   tasks:
-  - debug:
-       msg: "Hiiiiiii"
+  - command: "touch /root/tower"
 ...
