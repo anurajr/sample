@@ -1,5 +1,8 @@
----
-- hosts: all
-  tasks:
-  - command: "touch /root/tower"
-...
+--- 
+- 
+  hosts: all
+  name: "sample Tower Program"
+  tasks: 
+    - 
+      command: "touch /root/tower"
+      name: "File Creation"
