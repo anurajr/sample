@@ -4,5 +4,5 @@
   name: "sample Tower Program"
   tasks: 
     - 
-      command: "touch /root/tower"
+      command: "touch /root/tower{01..10}"
       name: "File Creation"
