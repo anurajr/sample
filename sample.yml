@@ -4,5 +4,9 @@
   name: "sample Tower Program"
   tasks: 
     - 
-      command: "touch /root/tower{01..10}"
+      command: "touch /root/tower"
       name: "File Creation"
+      resister: file
+    - 
+      debug: "msg={{ file.stdout }}"
+      
