@@ -1,10 +1,12 @@
 ---
-- hosts: all
-
-  - name: print to stdout
-    command: echo "hello"
-    register: hello
-
-  - debug: msg="{{ hello.stdout }}"
-
-  - debug: msg="{{ hello.stderr }}"
+- 
+  name: "sample Tower Program"
+  hosts: all
+  tasks:
+    - 
+      command: "touch /root/tower"
+      name: "File Creation"
+    - debug:
+         msg: "File Created"
+~                                                                               
+~                 
