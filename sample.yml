@@ -6,7 +6,5 @@
     - 
       command: "touch /root/tower"
       name: "File Creation"
-      resister: file
-    - 
-      debug: "msg={{ file.stdout }}"
+     
       
