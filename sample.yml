@@ -6,6 +6,4 @@
     - 
       command: "touch /root/tower"
       name: "File Creation"
-    -
-      debug: 
-        msg: "FILE CREATED"
+ 
